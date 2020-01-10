@@ -113,7 +113,7 @@ nav {
             float: left;
             li {
                 float: left;
-                padding: 0 15px;
+                padding: 0 13px;
                 font-size: 15px;
                 a {
                     color: black;
@@ -189,7 +189,24 @@ nav {
             left: 0;
             width: 100%;
             height: 160px;
-            background: yellow;
+            a {
+                width: 386px;
+                height: 160px;
+                float: left;
+                display: block;
+                margin-left: 16px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            a:hover {
+                transform: translate(0, -2px);
+                box-shadow: 0 3px 3px #CCC;
+            }
+            .firstpic {
+                margin-left: 0;
+            }
         }
     }
 }
@@ -200,7 +217,7 @@ nav {
     background: gold;
     .areabox {
         width: $page-container;
-        height: 727px;
+        overflow: hidden;
         background: bisque;
         .wrap {
             width: $page-width;
@@ -210,7 +227,65 @@ nav {
             .title-main {
                 padding: 37px 0 20px 0;
                 width: 100%;
-                background: indigo;
+                overflow: hidden;
+                p {
+                    float: left;
+                    .icon {
+                        display: inline-block;
+                        width: 35px;
+                        height: 35px;
+                        margin-right: 12px;
+                        vertical-align: middle;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .rsp {
+                    margin-left: 116px;
+                    float: left;
+                    overflow: hidden;
+                    a {
+                        margin-right: 5px;
+                        padding-top: 7px;
+                        font-size: 18px;
+                        display: block;
+                        border-bottom: 3px solid #de2f3c;
+                    }
+                }
+                .right-more {
+                    margin-top: 10px;
+                    font-size: 16px;
+                    color: #666;
+                    float: right;
+                    .gt {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        margin-left: 5px;
+                        background: url(../imges/base.png) no-repeat -90px 0;
+                        vertical-align: -5px;
+                    }
+                }
+            }
+            .dota {
+                width: 100%;
+                overflow: hidden;
+                a {
+                    width: 226px;
+                    height: 614px;
+                    margin: 0 15px 15px 0;
+                    display: block;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                a:hover {
+                    transform: translate(0, -2px);
+                    box-shadow: 0 3px 3px #CCC;
+                }
             }
         }
     }
@@ -220,25 +295,213 @@ nav {
 .comment {
     width: $page-container;
     padding-bottom: 25px;
-    background: green;
     .comwrap {
         width: $page-width;
-        height: 449px;
-        background: rosybrown;
         margin: 0 auto;
+        .title-main {
+            padding: 37px 0 20px 0;
+            width: 100%;
+            overflow: hidden;
+            p {
+                float: left;
+                .icon {
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 12px;
+                    vertical-align: middle;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        ul {
+            overflow: hidden;
+            li {
+                float: left;
+                width: 330px;
+                padding: 28px;
+                margin-right: 16px;
+                background-color: #FFF;
+                box-sizing: content-box;
+                .pic {
+                    display: block;
+                    float: left;
+                    height: 100%;
+                    width: 130px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .main-context {
+                    width: 184px;
+                    margin-left: 15px;
+                    line-height: 20px;
+                    float: left;
+                    .desp {
+                        height: 81px;
+                        font-size: 12px;
+                    }
+                    .form {
+                        color: #999;
+                        font-size: 12px;
+                        .weixin-pic {
+                            display: inline-block;
+                            width: 14px;
+                            height: 12px;
+                            margin-right: 5px;
+                            background: url(../imges/base.png) no-repeat -174px 0;
+                            vertical-align: -1px;
+                        }
+                    }
+                    .name {
+                        overflow: hidden;
+                        font-size: 14px;
+                        .name-hero {
+                            color: #ea0406;
+                            padding-left: 6px;
+                            margin-left: 6px;
+                            border-left: 1px solid #DDD;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 //关于
 .about {
     width: $page-container;
-    height: 328px;
-    background: gray;
+    overflow: hidden;
+    padding: 23px 0 40px;
+    margin-top: 40px;
+    .aboutwrap {
+        width: $page-width;
+        overflow: hidden;
+        margin: 0 auto;
+        .ensure {
+            margin-bottom: 20px;
+            overflow: hidden;
+            .goods {
+                float: left;
+                width: 297px;
+                height: 49px;
+                line-height: 49px;
+                text-align: center;
+                font-size: 18px;
+                border-right: 1px solid #e9e9e9;
+                color: #999;
+                span {
+                    display: inline-block;
+                    width: 45px;
+                    height: 45px;
+                    margin-right: 15px;
+                    background: url(../imges/about.png) no-repeat;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .server {
+            padding-top: 40px;
+            border-top: 1px solid #e9e9e9;
+            overflow: hidden;
+            dl {
+                float: left;
+                width: 298px;
+                text-indent: 110px;
+                dt {
+                    height: 35px;
+                    font-size: 14px;
+                }
+                dd {
+                    height: 24px;
+                    text-align: left;
+                    font-size: 12px;
+                    a {
+                        color: #999;
+                    }
+                    // position: relative;
+                }
+            }
+            .right-content {
+                width: 227px;
+                padding-left: 67px;
+                border-left: 1px solid #e9e9e9;
+                float: right;
+                box-sizing: content-box;
+                .tel {
+                    font-size: 24px;
+                }
+                .time {
+                    padding: 16px 0 24px 0;
+                    font-size: 14px;
+                    color: #999;
+                }
+                .zaixian {
+                    display: block;
+                    width: 154px;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    color: #ea0f1f;
+                    font-size: 16px;
+                    border: 1px solid #ff5353;
+                    border-radius: 3px;
+                    span {
+                        display: inline-block;
+                        width: 18px;
+                        height: 15px;
+                        margin-right: 6px;
+                        background: url(../imges/base.png) no-repeat -188px 0;
+                        vertical-align: middle;
+                    }
+                }
+                .zaixian:hover {
+                    background-color: #e32331;
+                    border-color: #e32331;
+                    color: #FFF;
+                }
+                .zaixian:hover span {
+                    background: url(../imges/base.png) no-repeat -240px 0;
+                }
+                .tousu {
+                    text-indent: 50px;
+                    font-size: 14px;
+                    padding: 16px 0 0;
+                    display: block;
+                }
+            }
+        }
+    }
 }
 
 //底部
 footer {
     width: $page-container;
-    height: 181px;
+    padding: 25px 0 30px 0;
     background: hotpink;
+    .footwrap {
+        width: $page-width;
+        margin: 0 auto;
+        .foot-ul {
+            width: 825px;
+            margin: 0 auto;
+            overflow: hidden;
+            li {
+                float: left;
+                width: 70px;
+                height: 12px;
+                line-height: 12px;
+                border-right: 1px solid #DDD;
+                text-align: center;
+                margin-right: -1px;
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+    }
 }
