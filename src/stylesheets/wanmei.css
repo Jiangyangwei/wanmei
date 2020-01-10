@@ -1,0 +1,334 @@
+/* line 17, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/wanmei.scss */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/wanmei.scss */
+a {
+  color: black;
+}
+
+/* line 18, ../sass/wanmei.scss */
+header {
+  width: 100%;
+  height: 33px;
+  background-color: #474747;
+}
+/* line 22, ../sass/wanmei.scss */
+header .headerwrap {
+  width: 1190px;
+  height: 100%;
+  margin: 0 auto;
+}
+/* line 26, ../sass/wanmei.scss */
+header .headerwrap .left-span {
+  margin-top: 7px;
+  float: left;
+  font-size: 12px;
+  color: white;
+}
+/* line 32, ../sass/wanmei.scss */
+header .headerwrap .right-box {
+  float: right;
+  width: 138px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+/* line 38, ../sass/wanmei.scss */
+header .headerwrap .right-box .cart {
+  height: 33px;
+  line-height: 33px;
+  background-color: #1e1e1e;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+}
+/* line 46, ../sass/wanmei.scss */
+header .headerwrap .right-box .cart .icon {
+  display: inline-block;
+  margin-right: 8px;
+  width: 20px;
+  height: 14px;
+  overflow: hidden;
+  background: url(../imges/base.png) no-repeat -164px -20px;
+  vertical-align: -2px;
+}
+/* line 55, ../sass/wanmei.scss */
+header .headerwrap .right-box .cart span {
+  color: gray;
+}
+
+/* line 64, ../sass/wanmei.scss */
+nav {
+  height: 101px;
+  background-color: #FFF;
+  border-bottom: 3px solid #de2f3c;
+  box-shadow: 0 3px 3px #CCC;
+}
+/* line 69, ../sass/wanmei.scss */
+nav .navwrap {
+  width: 1190px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 73, ../sass/wanmei.scss */
+nav .navwrap .logo {
+  width: 183px;
+  text-align: center;
+  height: 101px;
+  padding-top: 29px;
+  background-color: #c20315;
+  margin-bottom: -3px;
+  display: block;
+  float: left;
+}
+/* line 83, ../sass/wanmei.scss */
+nav .navwrap .shop {
+  margin: 37px 0 0 34px;
+  display: block;
+  float: left;
+}
+/* line 88, ../sass/wanmei.scss */
+nav .navwrap .shopping {
+  position: relative;
+  width: 175px;
+  margin-left: 50px;
+  text-indent: 19px;
+  z-index: 1;
+  float: left;
+}
+/* line 95, ../sass/wanmei.scss */
+nav .navwrap .shopping .text {
+  height: 101px;
+  line-height: 101px;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+}
+/* line 101, ../sass/wanmei.scss */
+nav .navwrap .shopping .text .shop-list {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin-right: 7px;
+  background: url(../imges/base.png) no-repeat -24px 0;
+  vertical-align: -1px;
+}
+/* line 111, ../sass/wanmei.scss */
+nav .navwrap .ul-list {
+  margin-top: 40px;
+  float: left;
+}
+/* line 114, ../sass/wanmei.scss */
+nav .navwrap .ul-list li {
+  float: left;
+  padding: 0 15px;
+  font-size: 15px;
+}
+/* line 118, ../sass/wanmei.scss */
+nav .navwrap .ul-list li a {
+  color: black;
+}
+/* line 123, ../sass/wanmei.scss */
+nav .navwrap .right-box {
+  position: relative;
+  width: 320px;
+  height: 41px;
+  margin-top: 30px;
+  z-index: 1;
+  float: right;
+}
+/* line 130, ../sass/wanmei.scss */
+nav .navwrap .right-box form {
+  overflow: hidden;
+}
+/* line 132, ../sass/wanmei.scss */
+nav .navwrap .right-box form .input-text {
+  float: left;
+  width: 274px;
+  height: 41px;
+  line-height: 39px;
+  padding: 0 5px;
+  border: 1px solid #CCC;
+  border-right: 0;
+  resize: none;
+  outline: 0;
+}
+/* line 143, ../sass/wanmei.scss */
+nav .navwrap .right-box form .btn {
+  float: right;
+  width: 46px;
+  height: 41px;
+  border: 0;
+  background: #e32332 url(../imges/search.png) no-repeat center;
+  cursor: pointer;
+}
+/* line 151, ../sass/wanmei.scss */
+nav .navwrap .right-box form .keyword {
+  position: absolute;
+  top: 1px;
+  right: 56px;
+  height: 30px;
+  padding-top: 9px;
+}
+/* line 157, ../sass/wanmei.scss */
+nav .navwrap .right-box form .keyword a {
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: #EEE;
+  font-size: 12px;
+}
+
+/* line 170, ../sass/wanmei.scss */
+.banner {
+  width: 100%;
+  height: 439px;
+  background: red;
+}
+
+/* line 177, ../sass/wanmei.scss */
+.buying {
+  width: 100%;
+  padding-bottom: 40px;
+  background: white;
+}
+/* line 181, ../sass/wanmei.scss */
+.buying .buywrap {
+  width: 1190px;
+  padding-top: 146px;
+  margin: 0 auto;
+  position: relative;
+}
+/* line 186, ../sass/wanmei.scss */
+.buying .buywrap .list {
+  position: absolute;
+  top: -14px;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  background: yellow;
+}
+
+/* line 198, ../sass/wanmei.scss */
+.area {
+  width: 100%;
+  background: gold;
+}
+/* line 201, ../sass/wanmei.scss */
+.area .areabox {
+  width: 100%;
+  height: 727px;
+  background: bisque;
+}
+/* line 205, ../sass/wanmei.scss */
+.area .areabox .wrap {
+  width: 1190px;
+  height: 100%;
+  background: honeydew;
+  margin: 0 auto;
+}
+/* line 210, ../sass/wanmei.scss */
+.area .areabox .wrap .title-main {
+  padding: 37px 0 20px 0;
+  width: 100%;
+  background: indigo;
+}
+
+/* line 220, ../sass/wanmei.scss */
+.comment {
+  width: 100%;
+  padding-bottom: 25px;
+  background: green;
+}
+/* line 224, ../sass/wanmei.scss */
+.comment .comwrap {
+  width: 1190px;
+  height: 449px;
+  background: rosybrown;
+  margin: 0 auto;
+}
+
+/* line 233, ../sass/wanmei.scss */
+.about {
+  width: 100%;
+  height: 328px;
+  background: gray;
+}
+
+/* line 240, ../sass/wanmei.scss */
+footer {
+  width: 100%;
+  height: 181px;
+  background: hotpink;
+}
