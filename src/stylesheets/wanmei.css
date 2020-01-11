@@ -73,30 +73,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 13, ../sass/wanmei.scss */
+body {
+  background-color: #f5f5f5;
+}
+
+/* line 17, ../sass/wanmei.scss */
 a {
   color: black;
 }
 
-/* line 18, ../sass/wanmei.scss */
+/* line 22, ../sass/wanmei.scss */
 header {
   width: 100%;
   height: 33px;
   background-color: #474747;
 }
-/* line 22, ../sass/wanmei.scss */
+/* line 26, ../sass/wanmei.scss */
 header .headerwrap {
   width: 1190px;
   height: 100%;
   margin: 0 auto;
 }
-/* line 26, ../sass/wanmei.scss */
+/* line 30, ../sass/wanmei.scss */
 header .headerwrap .left-span {
   margin-top: 7px;
   float: left;
   font-size: 12px;
   color: white;
 }
-/* line 32, ../sass/wanmei.scss */
+/* line 36, ../sass/wanmei.scss */
 header .headerwrap .right-box {
   float: right;
   width: 138px;
@@ -104,7 +109,7 @@ header .headerwrap .right-box {
   z-index: 2;
   overflow: hidden;
 }
-/* line 38, ../sass/wanmei.scss */
+/* line 42, ../sass/wanmei.scss */
 header .headerwrap .right-box .cart {
   height: 33px;
   line-height: 33px;
@@ -114,7 +119,7 @@ header .headerwrap .right-box .cart {
   display: block;
   font-size: 12px;
 }
-/* line 46, ../sass/wanmei.scss */
+/* line 50, ../sass/wanmei.scss */
 header .headerwrap .right-box .cart .icon {
   display: inline-block;
   margin-right: 8px;
@@ -124,25 +129,25 @@ header .headerwrap .right-box .cart .icon {
   background: url(../imges/base.png) no-repeat -164px -20px;
   vertical-align: -2px;
 }
-/* line 55, ../sass/wanmei.scss */
+/* line 59, ../sass/wanmei.scss */
 header .headerwrap .right-box .cart span {
   color: gray;
 }
 
-/* line 64, ../sass/wanmei.scss */
+/* line 68, ../sass/wanmei.scss */
 nav {
   height: 101px;
   background-color: #FFF;
   border-bottom: 3px solid #de2f3c;
   box-shadow: 0 3px 3px #CCC;
 }
-/* line 69, ../sass/wanmei.scss */
+/* line 73, ../sass/wanmei.scss */
 nav .navwrap {
   width: 1190px;
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 73, ../sass/wanmei.scss */
+/* line 77, ../sass/wanmei.scss */
 nav .navwrap .logo {
   width: 183px;
   text-align: center;
@@ -153,13 +158,13 @@ nav .navwrap .logo {
   display: block;
   float: left;
 }
-/* line 83, ../sass/wanmei.scss */
+/* line 87, ../sass/wanmei.scss */
 nav .navwrap .shop {
   margin: 37px 0 0 34px;
   display: block;
   float: left;
 }
-/* line 88, ../sass/wanmei.scss */
+/* line 92, ../sass/wanmei.scss */
 nav .navwrap .shopping {
   position: relative;
   width: 175px;
@@ -168,7 +173,7 @@ nav .navwrap .shopping {
   z-index: 1;
   float: left;
 }
-/* line 95, ../sass/wanmei.scss */
+/* line 99, ../sass/wanmei.scss */
 nav .navwrap .shopping .text {
   height: 101px;
   line-height: 101px;
@@ -176,7 +181,7 @@ nav .navwrap .shopping .text {
   cursor: pointer;
   display: block;
 }
-/* line 101, ../sass/wanmei.scss */
+/* line 105, ../sass/wanmei.scss */
 nav .navwrap .shopping .text .shop-list {
   display: inline-block;
   width: 15px;
@@ -185,22 +190,22 @@ nav .navwrap .shopping .text .shop-list {
   background: url(../imges/base.png) no-repeat -24px 0;
   vertical-align: -1px;
 }
-/* line 111, ../sass/wanmei.scss */
+/* line 115, ../sass/wanmei.scss */
 nav .navwrap .ul-list {
   margin-top: 40px;
   float: left;
 }
-/* line 114, ../sass/wanmei.scss */
+/* line 118, ../sass/wanmei.scss */
 nav .navwrap .ul-list li {
   float: left;
   padding: 0 13px;
   font-size: 15px;
 }
-/* line 118, ../sass/wanmei.scss */
+/* line 122, ../sass/wanmei.scss */
 nav .navwrap .ul-list li a {
   color: black;
 }
-/* line 123, ../sass/wanmei.scss */
+/* line 127, ../sass/wanmei.scss */
 nav .navwrap .right-box {
   position: relative;
   width: 320px;
@@ -209,11 +214,11 @@ nav .navwrap .right-box {
   z-index: 1;
   float: right;
 }
-/* line 130, ../sass/wanmei.scss */
+/* line 134, ../sass/wanmei.scss */
 nav .navwrap .right-box form {
   overflow: hidden;
 }
-/* line 132, ../sass/wanmei.scss */
+/* line 136, ../sass/wanmei.scss */
 nav .navwrap .right-box form .input-text {
   float: left;
   width: 274px;
@@ -225,7 +230,7 @@ nav .navwrap .right-box form .input-text {
   resize: none;
   outline: 0;
 }
-/* line 143, ../sass/wanmei.scss */
+/* line 147, ../sass/wanmei.scss */
 nav .navwrap .right-box form .btn {
   float: right;
   width: 46px;
@@ -234,7 +239,7 @@ nav .navwrap .right-box form .btn {
   background: #e32332 url(../imges/search.png) no-repeat center;
   cursor: pointer;
 }
-/* line 151, ../sass/wanmei.scss */
+/* line 155, ../sass/wanmei.scss */
 nav .navwrap .right-box form .keyword {
   position: absolute;
   top: 1px;
@@ -242,7 +247,7 @@ nav .navwrap .right-box form .keyword {
   height: 30px;
   padding-top: 9px;
 }
-/* line 157, ../sass/wanmei.scss */
+/* line 161, ../sass/wanmei.scss */
 nav .navwrap .right-box form .keyword a {
   display: inline-block;
   padding: 3px 5px;
@@ -250,27 +255,93 @@ nav .navwrap .right-box form .keyword a {
   font-size: 12px;
 }
 
-/* line 170, ../sass/wanmei.scss */
+/* line 174, ../sass/wanmei.scss */
 .banner {
   width: 100%;
   height: 439px;
-  background: red;
+  position: relative;
+}
+/* line 178, ../sass/wanmei.scss */
+.banner ul {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+/* line 183, ../sass/wanmei.scss */
+.banner ul .li-1 {
+  width: 100%;
+  height: 439px;
+  float: left;
+  background: url(../imges/01.jpg) center top no-repeat;
+}
+/* line 189, ../sass/wanmei.scss */
+.banner ul .li-2 {
+  width: 100%;
+  height: 439px;
+  float: left;
+  background: url(../imges/02.jpg) center top no-repeat;
+}
+/* line 195, ../sass/wanmei.scss */
+.banner ul .li-3 {
+  width: 100%;
+  height: 439px;
+  float: left;
+  background: url(../imges/03.jpg) center top no-repeat;
+}
+/* line 202, ../sass/wanmei.scss */
+.banner .prev {
+  margin-left: -595px;
+  width: 47px;
+  height: 80px;
+  margin-top: -40px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  border-radius: 3px;
+  display: block;
+}
+/* line 212, ../sass/wanmei.scss */
+.banner .prev span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../imges/base.png) 0px -20px no-repeat;
+}
+/* line 219, ../sass/wanmei.scss */
+.banner .next {
+  margin-right: -595px;
+  width: 47px;
+  height: 80px;
+  margin-top: -40px;
+  right: 50%;
+  position: absolute;
+  top: 50%;
+  border-radius: 3px;
+  display: block;
+}
+/* line 229, ../sass/wanmei.scss */
+.banner .next span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../imges/base.png) -47px -20px no-repeat;
 }
 
-/* line 177, ../sass/wanmei.scss */
+/* line 239, ../sass/wanmei.scss */
 .buying {
   width: 100%;
   padding-bottom: 40px;
   background: white;
 }
-/* line 181, ../sass/wanmei.scss */
+/* line 243, ../sass/wanmei.scss */
 .buying .buywrap {
   width: 1190px;
   padding-top: 146px;
   margin: 0 auto;
   position: relative;
 }
-/* line 186, ../sass/wanmei.scss */
+/* line 248, ../sass/wanmei.scss */
 .buying .buywrap .list {
   position: absolute;
   top: -14px;
@@ -278,7 +349,7 @@ nav .navwrap .right-box form .keyword a {
   width: 100%;
   height: 160px;
 }
-/* line 192, ../sass/wanmei.scss */
+/* line 254, ../sass/wanmei.scss */
 .buying .buywrap .list a {
   width: 386px;
   height: 160px;
@@ -286,50 +357,50 @@ nav .navwrap .right-box form .keyword a {
   display: block;
   margin-left: 16px;
 }
-/* line 198, ../sass/wanmei.scss */
+/* line 260, ../sass/wanmei.scss */
 .buying .buywrap .list a img {
   width: 100%;
   height: 100%;
 }
-/* line 203, ../sass/wanmei.scss */
+/* line 265, ../sass/wanmei.scss */
 .buying .buywrap .list a:hover {
   transform: translate(0, -2px);
   box-shadow: 0 3px 3px #CCC;
 }
-/* line 207, ../sass/wanmei.scss */
+/* line 269, ../sass/wanmei.scss */
 .buying .buywrap .list .firstpic {
   margin-left: 0;
 }
 
-/* line 215, ../sass/wanmei.scss */
+/* line 277, ../sass/wanmei.scss */
 .area {
   width: 100%;
   background: gold;
 }
-/* line 218, ../sass/wanmei.scss */
+/* line 280, ../sass/wanmei.scss */
 .area .areabox {
   width: 100%;
   overflow: hidden;
   background: bisque;
 }
-/* line 222, ../sass/wanmei.scss */
+/* line 284, ../sass/wanmei.scss */
 .area .areabox .wrap {
   width: 1190px;
   height: 100%;
   background: honeydew;
   margin: 0 auto;
 }
-/* line 227, ../sass/wanmei.scss */
+/* line 289, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main {
   padding: 37px 0 20px 0;
   width: 100%;
   overflow: hidden;
 }
-/* line 231, ../sass/wanmei.scss */
+/* line 293, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main p {
   float: left;
 }
-/* line 233, ../sass/wanmei.scss */
+/* line 295, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main p .icon {
   display: inline-block;
   width: 35px;
@@ -337,18 +408,18 @@ nav .navwrap .right-box form .keyword a {
   margin-right: 12px;
   vertical-align: middle;
 }
-/* line 239, ../sass/wanmei.scss */
+/* line 301, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main p .icon img {
   width: 100%;
   height: 100%;
 }
-/* line 245, ../sass/wanmei.scss */
+/* line 307, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main .rsp {
   margin-left: 116px;
   float: left;
   overflow: hidden;
 }
-/* line 249, ../sass/wanmei.scss */
+/* line 311, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main .rsp a {
   margin-right: 5px;
   padding-top: 7px;
@@ -356,14 +427,14 @@ nav .navwrap .right-box form .keyword a {
   display: block;
   border-bottom: 3px solid #de2f3c;
 }
-/* line 257, ../sass/wanmei.scss */
+/* line 319, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main .right-more {
   margin-top: 10px;
   font-size: 16px;
   color: #666;
   float: right;
 }
-/* line 262, ../sass/wanmei.scss */
+/* line 324, ../sass/wanmei.scss */
 .area .areabox .wrap .title-main .right-more .gt {
   display: inline-block;
   width: 20px;
@@ -372,50 +443,139 @@ nav .navwrap .right-box form .keyword a {
   background: url(../imges/base.png) no-repeat -90px 0;
   vertical-align: -5px;
 }
-/* line 272, ../sass/wanmei.scss */
+/* line 334, ../sass/wanmei.scss */
 .area .areabox .wrap .dota {
   width: 100%;
   overflow: hidden;
 }
-/* line 275, ../sass/wanmei.scss */
-.area .areabox .wrap .dota a {
+/* line 337, ../sass/wanmei.scss */
+.area .areabox .wrap .dota .left-pic {
   width: 226px;
   height: 614px;
-  margin: 0 15px 15px 0;
+  margin: 0 0 15px 0;
   display: block;
+  float: left;
 }
-/* line 280, ../sass/wanmei.scss */
-.area .areabox .wrap .dota a img {
+/* line 343, ../sass/wanmei.scss */
+.area .areabox .wrap .dota .left-pic img {
   width: 100%;
   height: 100%;
 }
-/* line 285, ../sass/wanmei.scss */
-.area .areabox .wrap .dota a:hover {
+/* line 348, ../sass/wanmei.scss */
+.area .areabox .wrap .dota .left-pic:hover {
+  transform: translate(0, -2px);
+  box-shadow: 0 3px 3px #CCC;
+}
+/* line 352, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul {
+  overflow: hidden;
+  float: left;
+  width: 964px;
+}
+/* line 356, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li {
+  position: relative;
+  float: left;
+  background-color: #FFF;
+  width: 226px;
+  padding-top: 47px;
+  margin: 0 0 15px 15px;
+  text-align: center;
+  height: 300px;
+}
+/* line 365, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .sale {
+  background-color: #ff5353;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 26px;
+  font-size: 12px;
+  color: #FFF;
+  box-shadow: 0 1px 3px #CCC;
+}
+/* line 377, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .sale span {
+  font-size: 26px;
+}
+/* line 381, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .like {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  color: #999;
+  line-height: 14px;
+}
+/* line 387, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .like span {
+  display: inline-block;
+  width: 13px;
+  height: 11px;
+  overflow: hidden;
+  margin-right: 5px;
+  background: url(../imges/base.png) no-repeat -132px 0;
+  vertical-align: middle;
+}
+/* line 397, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .tc-pic {
+  display: block;
+  overflow: hidden;
+}
+/* line 400, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .tc-pic img {
+  width: 160px;
+  height: 160px;
+}
+/* line 405, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .title {
+  font-size: 14px;
+  margin: 15px 15px 5px 15px;
+  overflow: hidden;
+}
+/* line 411, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .price {
+  font-size: 18px;
+  color: #eb0303;
+}
+/* line 414, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li .price s {
+  display: inline-block;
+  margin-left: 7px;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #999;
+  text-decoration: line-through;
+}
+/* line 424, ../sass/wanmei.scss */
+.area .areabox .wrap .dota ul li:hover {
   transform: translate(0, -2px);
   box-shadow: 0 3px 3px #CCC;
 }
 
-/* line 295, ../sass/wanmei.scss */
+/* line 435, ../sass/wanmei.scss */
 .comment {
   width: 100%;
   padding-bottom: 25px;
 }
-/* line 298, ../sass/wanmei.scss */
+/* line 438, ../sass/wanmei.scss */
 .comment .comwrap {
   width: 1190px;
   margin: 0 auto;
 }
-/* line 301, ../sass/wanmei.scss */
+/* line 441, ../sass/wanmei.scss */
 .comment .comwrap .title-main {
   padding: 37px 0 20px 0;
   width: 100%;
   overflow: hidden;
 }
-/* line 305, ../sass/wanmei.scss */
+/* line 445, ../sass/wanmei.scss */
 .comment .comwrap .title-main p {
   float: left;
 }
-/* line 307, ../sass/wanmei.scss */
+/* line 447, ../sass/wanmei.scss */
 .comment .comwrap .title-main p .icon {
   display: inline-block;
   width: 35px;
@@ -423,16 +583,16 @@ nav .navwrap .right-box form .keyword a {
   margin-right: 12px;
   vertical-align: middle;
 }
-/* line 313, ../sass/wanmei.scss */
+/* line 453, ../sass/wanmei.scss */
 .comment .comwrap .title-main p .icon img {
   width: 100%;
   height: 100%;
 }
-/* line 320, ../sass/wanmei.scss */
+/* line 460, ../sass/wanmei.scss */
 .comment .comwrap ul {
   overflow: hidden;
 }
-/* line 322, ../sass/wanmei.scss */
+/* line 462, ../sass/wanmei.scss */
 .comment .comwrap ul li {
   float: left;
   width: 330px;
@@ -441,36 +601,36 @@ nav .navwrap .right-box form .keyword a {
   background-color: #FFF;
   box-sizing: content-box;
 }
-/* line 329, ../sass/wanmei.scss */
+/* line 469, ../sass/wanmei.scss */
 .comment .comwrap ul li .pic {
   display: block;
   float: left;
   height: 100%;
   width: 130px;
 }
-/* line 334, ../sass/wanmei.scss */
+/* line 474, ../sass/wanmei.scss */
 .comment .comwrap ul li .pic img {
   width: 100%;
   height: 100%;
 }
-/* line 339, ../sass/wanmei.scss */
+/* line 479, ../sass/wanmei.scss */
 .comment .comwrap ul li .main-context {
   width: 184px;
   margin-left: 15px;
   line-height: 20px;
   float: left;
 }
-/* line 344, ../sass/wanmei.scss */
+/* line 484, ../sass/wanmei.scss */
 .comment .comwrap ul li .main-context .desp {
   height: 81px;
   font-size: 12px;
 }
-/* line 348, ../sass/wanmei.scss */
+/* line 488, ../sass/wanmei.scss */
 .comment .comwrap ul li .main-context .form {
   color: #999;
   font-size: 12px;
 }
-/* line 351, ../sass/wanmei.scss */
+/* line 491, ../sass/wanmei.scss */
 .comment .comwrap ul li .main-context .form .weixin-pic {
   display: inline-block;
   width: 14px;
@@ -479,12 +639,12 @@ nav .navwrap .right-box form .keyword a {
   background: url(../imges/base.png) no-repeat -174px 0;
   vertical-align: -1px;
 }
-/* line 360, ../sass/wanmei.scss */
+/* line 500, ../sass/wanmei.scss */
 .comment .comwrap ul li .main-context .name {
   overflow: hidden;
   font-size: 14px;
 }
-/* line 363, ../sass/wanmei.scss */
+/* line 503, ../sass/wanmei.scss */
 .comment .comwrap ul li .main-context .name .name-hero {
   color: #ea0406;
   padding-left: 6px;
@@ -492,25 +652,26 @@ nav .navwrap .right-box form .keyword a {
   border-left: 1px solid #DDD;
 }
 
-/* line 377, ../sass/wanmei.scss */
+/* line 517, ../sass/wanmei.scss */
 .about {
   width: 100%;
   overflow: hidden;
   padding: 23px 0 40px;
   margin-top: 40px;
+  background-color: #fff;
 }
-/* line 382, ../sass/wanmei.scss */
+/* line 523, ../sass/wanmei.scss */
 .about .aboutwrap {
   width: 1190px;
   overflow: hidden;
   margin: 0 auto;
 }
-/* line 386, ../sass/wanmei.scss */
+/* line 527, ../sass/wanmei.scss */
 .about .aboutwrap .ensure {
   margin-bottom: 20px;
   overflow: hidden;
 }
-/* line 389, ../sass/wanmei.scss */
+/* line 530, ../sass/wanmei.scss */
 .about .aboutwrap .ensure .goods {
   float: left;
   width: 297px;
@@ -521,7 +682,7 @@ nav .navwrap .right-box form .keyword a {
   border-right: 1px solid #e9e9e9;
   color: #999;
 }
-/* line 398, ../sass/wanmei.scss */
+/* line 539, ../sass/wanmei.scss */
 .about .aboutwrap .ensure .goods span {
   display: inline-block;
   width: 45px;
@@ -530,34 +691,34 @@ nav .navwrap .right-box form .keyword a {
   background: url(../imges/about.png) no-repeat;
   vertical-align: middle;
 }
-/* line 408, ../sass/wanmei.scss */
+/* line 549, ../sass/wanmei.scss */
 .about .aboutwrap .server {
   padding-top: 40px;
   border-top: 1px solid #e9e9e9;
   overflow: hidden;
 }
-/* line 412, ../sass/wanmei.scss */
+/* line 553, ../sass/wanmei.scss */
 .about .aboutwrap .server dl {
   float: left;
   width: 298px;
   text-indent: 110px;
 }
-/* line 416, ../sass/wanmei.scss */
+/* line 557, ../sass/wanmei.scss */
 .about .aboutwrap .server dl dt {
   height: 35px;
   font-size: 14px;
 }
-/* line 420, ../sass/wanmei.scss */
+/* line 561, ../sass/wanmei.scss */
 .about .aboutwrap .server dl dd {
   height: 24px;
   text-align: left;
   font-size: 12px;
 }
-/* line 424, ../sass/wanmei.scss */
+/* line 565, ../sass/wanmei.scss */
 .about .aboutwrap .server dl dd a {
   color: #999;
 }
-/* line 430, ../sass/wanmei.scss */
+/* line 571, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content {
   width: 227px;
   padding-left: 67px;
@@ -565,17 +726,17 @@ nav .navwrap .right-box form .keyword a {
   float: right;
   box-sizing: content-box;
 }
-/* line 436, ../sass/wanmei.scss */
+/* line 577, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .tel {
   font-size: 24px;
 }
-/* line 439, ../sass/wanmei.scss */
+/* line 580, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .time {
   padding: 16px 0 24px 0;
   font-size: 14px;
   color: #999;
 }
-/* line 444, ../sass/wanmei.scss */
+/* line 585, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .zaixian {
   display: block;
   width: 154px;
@@ -587,7 +748,7 @@ nav .navwrap .right-box form .keyword a {
   border: 1px solid #ff5353;
   border-radius: 3px;
 }
-/* line 454, ../sass/wanmei.scss */
+/* line 595, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .zaixian span {
   display: inline-block;
   width: 18px;
@@ -596,17 +757,17 @@ nav .navwrap .right-box form .keyword a {
   background: url(../imges/base.png) no-repeat -188px 0;
   vertical-align: middle;
 }
-/* line 463, ../sass/wanmei.scss */
+/* line 604, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .zaixian:hover {
   background-color: #e32331;
   border-color: #e32331;
   color: #FFF;
 }
-/* line 468, ../sass/wanmei.scss */
+/* line 609, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .zaixian:hover span {
   background: url(../imges/base.png) no-repeat -240px 0;
 }
-/* line 471, ../sass/wanmei.scss */
+/* line 612, ../sass/wanmei.scss */
 .about .aboutwrap .server .right-content .tousu {
   text-indent: 50px;
   font-size: 14px;
@@ -614,24 +775,23 @@ nav .navwrap .right-box form .keyword a {
   display: block;
 }
 
-/* line 483, ../sass/wanmei.scss */
+/* line 624, ../sass/wanmei.scss */
 footer {
   width: 100%;
   padding: 25px 0 30px 0;
-  background: hotpink;
 }
-/* line 487, ../sass/wanmei.scss */
+/* line 627, ../sass/wanmei.scss */
 footer .footwrap {
   width: 1190px;
   margin: 0 auto;
 }
-/* line 490, ../sass/wanmei.scss */
+/* line 630, ../sass/wanmei.scss */
 footer .footwrap .foot-ul {
   width: 825px;
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 494, ../sass/wanmei.scss */
+/* line 634, ../sass/wanmei.scss */
 footer .footwrap .foot-ul li {
   float: left;
   width: 70px;
@@ -642,4 +802,22 @@ footer .footwrap .foot-ul li {
   margin-right: -1px;
   text-align: center;
   font-size: 12px;
+}
+/* line 646, ../sass/wanmei.scss */
+footer .footwrap .p-text {
+  padding: 24px 0 15px 0;
+  color: #999;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 652, ../sass/wanmei.scss */
+footer .footwrap .link {
+  overflow: hidden;
+  text-align: center;
+}
+/* line 655, ../sass/wanmei.scss */
+footer .footwrap .link a {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 3px;
 }

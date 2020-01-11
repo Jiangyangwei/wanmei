@@ -1,0 +1,109 @@
+/* line 1, ../sass/reg.scss */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* line 8, ../sass/reg.scss */
+body {
+  background: url(../imges/bg.jpg) center top no-repeat;
+  min-width: 1002px;
+}
+
+/* line 13, ../sass/reg.scss */
+header {
+  width: 818px;
+  margin: 0 auto 40px;
+  padding: 30px 0 0;
+  position: relative;
+  z-index: 10;
+  line-height: 35px;
+  color: #fff;
+}
+/* line 21, ../sass/reg.scss */
+header h1 {
+  float: left;
+}
+/* line 23, ../sass/reg.scss */
+header h1 img {
+  vertical-align: middle;
+  height: 35px;
+}
+
+/* line 30, ../sass/reg.scss */
+main {
+  position: relative;
+  z-index: 10;
+  width: 818px;
+  height: auto;
+  padding: 60px 0;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin: 0 auto 56px;
+}
+/* line 39, ../sass/reg.scss */
+main .main-wrap {
+  width: 396px;
+  background: #fff;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+/* line 46, ../sass/reg.scss */
+main .main-wrap .title {
+  color: #333333;
+  line-height: 36px;
+  font-size: 34px;
+  text-shadow: none;
+  font-weight: normal;
+  margin: 0 0 10px;
+  text-align: center;
+}
+/* line 55, ../sass/reg.scss */
+main .main-wrap .vicetit {
+  color: #999999;
+  line-height: 18px;
+  margin: 0 0 34px;
+}
+/* line 60, ../sass/reg.scss */
+main .main-wrap p {
+  line-height: 30px;
+  vertical-align: middle;
+}
+/* line 63, ../sass/reg.scss */
+main .main-wrap p label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+/* line 68, ../sass/reg.scss */
+main .main-wrap p .tel {
+  width: 150px;
+  height: 16px;
+}
+/* line 72, ../sass/reg.scss */
+main .main-wrap p .password {
+  width: 150px;
+  height: 16px;
+  vertical-align: middle;
+}
+/* line 77, ../sass/reg.scss */
+main .main-wrap p .twice {
+  width: 150px;
+  height: 16px;
+  vertical-align: middle;
+}
+/* line 83, ../sass/reg.scss */
+main .main-wrap .submit {
+  width: 120px;
+  height: 40px;
+  background: red;
+  color: #fff;
+  outline: none;
+  border: 0;
+  margin-left: 80px;
+  margin-top: 30px;
+}
