@@ -1,3 +1,5 @@
+@charset "utf-8";
+@import "compass/reset";
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body {
     min-width: 1002px;
 }
 
+//头部
 header {
     width: 818px;
     margin: 0 auto 40px;
@@ -27,6 +30,7 @@ header {
     }
 }
 
+//注册表
 main {
     position: relative;
     z-index: 10;
@@ -89,6 +93,49 @@ main {
             border: 0;
             margin-left: 80px;
             margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+}
+
+//底部
+footer {
+    width: 100%;
+    padding: 25px 0 30px 0;
+    margin-top: 400px;
+    .footwrap {
+        width: 1190px;
+        margin: 0 auto;
+        .foot-ul {
+            width: 825px;
+            margin: 0 auto;
+            overflow: hidden;
+            li {
+                float: left;
+                width: 70px;
+                height: 12px;
+                line-height: 12px;
+                border-right: 1px solid #DDD;
+                text-align: center;
+                margin-right: -1px;
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        .p-text {
+            padding: 24px 0 15px 0;
+            color: #999;
+            text-align: center;
+            font-size: 12px;
+        }
+        .link {
+            overflow: hidden;
+            text-align: center;
+            a {
+                display: inline-block;
+                overflow: hidden;
+                margin: 0 3px;
+            }
         }
     }
 }

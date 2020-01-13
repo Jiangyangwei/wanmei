@@ -1,0 +1,302 @@
+@charset "utf-8";
+@import "compass/reset";
+$page-width:1190px;
+$page-container:100%;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+a {
+    color: black;
+}
+
+//  头部
+header {
+    width: $page-container;
+    height: 33px;
+    background-color: #474747;
+    .headerwrap {
+        width: $page-width;
+        height: 100%;
+        margin: 0 auto;
+        .left-span {
+            margin-top: 7px;
+            float: left;
+            font-size: 12px;
+            color: white;
+        }
+        .right-box {
+            float: right;
+            width: 138px;
+            position: relative;
+            z-index: 2;
+            overflow: hidden;
+            .cart {
+                height: 33px;
+                line-height: 33px;
+                background-color: #1e1e1e;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                font-size: 12px;
+                .icon {
+                    display: inline-block;
+                    margin-right: 8px;
+                    width: 20px;
+                    height: 14px;
+                    overflow: hidden;
+                    background: url(../imges/base.png) no-repeat -164px -20px;
+                    vertical-align: -2px;
+                }
+                span {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+// 导航
+nav {
+    height: 101px;
+    background-color: #FFF;
+    border-bottom: 3px solid #de2f3c;
+    box-shadow: 0 3px 3px #CCC;
+    .navwrap {
+        width: $page-width;
+        margin: 0 auto;
+        overflow: hidden;
+        .logo {
+            width: 183px;
+            text-align: center;
+            height: 101px;
+            padding-top: 29px;
+            background-color: #c20315;
+            margin-bottom: -3px;
+            display: block;
+            float: left;
+        }
+        .shop {
+            margin: 37px 0 0 34px;
+            display: block;
+            float: left;
+        }
+        .shopping {
+            position: relative;
+            width: 175px;
+            margin-left: 50px;
+            text-indent: 19px;
+            z-index: 1;
+            float: left;
+            .text {
+                height: 101px;
+                line-height: 101px;
+                font-size: 15px;
+                cursor: pointer;
+                display: block;
+                .shop-list {
+                    display: inline-block;
+                    width: 15px;
+                    height: 13px;
+                    margin-right: 7px;
+                    background: url(../imges/base.png) no-repeat -24px 0;
+                    vertical-align: -1px;
+                }
+            }
+        }
+        .ul-list {
+            margin-top: 40px;
+            float: left;
+            li {
+                float: left;
+                padding: 0 13px;
+                font-size: 15px;
+                a {
+                    color: black;
+                }
+            }
+        }
+        .right-box {
+            position: relative;
+            width: 320px;
+            height: 41px;
+            margin-top: 30px;
+            z-index: 1;
+            float: right;
+            form {
+                overflow: hidden;
+                .input-text {
+                    float: left;
+                    width: 274px;
+                    height: 41px;
+                    line-height: 39px;
+                    padding: 0 5px;
+                    border: 1px solid #CCC;
+                    border-right: 0;
+                    resize: none;
+                    outline: 0;
+                }
+                .btn {
+                    float: right;
+                    width: 46px;
+                    height: 41px;
+                    border: 0;
+                    background: #e32332 url(../imges/search.png) no-repeat center;
+                    cursor: pointer;
+                }
+                .keyword {
+                    position: absolute;
+                    top: 1px;
+                    right: 56px;
+                    height: 30px;
+                    padding-top: 9px;
+                    a {
+                        display: inline-block;
+                        padding: 3px 5px;
+                        background-color: #EEE;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.one {
+    width: 100%;
+    height: 44px;
+    background: #eee;
+    div {
+        width: 1260px;
+        height: 44px;
+        line-height: 44px;
+        margin: 0 auto;
+        font-size: 12px;
+        a {
+            color: #777;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+    // background: #ccc;
+    .kong {
+        width: 1260px;
+        height: 500px;
+        line-height: 500px;
+        font-size: 35px;
+        margin: 0 auto;
+        text-align: center;
+        color: black;
+        // background: #999;
+        .biaoti {
+            width: 100%;
+            height: 55px;
+            margin: 0 auto;
+            background: white;
+            border-bottom: 1px solid #ccc;
+            &::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            >div {
+                float: left;
+                height: 55px;
+                line-height: 55px;
+                color: #555;
+                text-align: center;
+                font-size: 14px;
+            }
+            >div:nth-of-type(1) {
+                width: 55px;
+                position: relative;
+                >span {
+                    display: block;
+                    width: 18px;
+                    height: 18px;
+                    border: 1px solid #ccc;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -9px;
+                    margin-left: -9px;
+                    background: url(../../img/gouwuxiangqing/base.png) no-repeat -78px -100px;
+                    cursor: pointer;
+                }
+            }
+            >div:nth-of-type(2) {
+                width: 55px;
+            }
+            >div:nth-of-type(3) {
+                width: 528px;
+            }
+            >div:nth-of-type(4) {
+                width: 100px;
+            }
+            >div:nth-of-type(5) {
+                width: 200px;
+            }
+            >div:nth-of-type(6) {
+                width: 150px;
+            }
+            >div:nth-of-type(7) {
+                width: 150px;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    padding: 25px 0 30px 0;
+    margin-top: 400px;
+    .footwrap {
+        width: 1190px;
+        margin: 0 auto;
+        .foot-ul {
+            width: 825px;
+            margin: 0 auto;
+            overflow: hidden;
+            li {
+                float: left;
+                width: 70px;
+                height: 12px;
+                line-height: 12px;
+                border-right: 1px solid #DDD;
+                text-align: center;
+                margin-right: -1px;
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        .p-text {
+            padding: 24px 0 15px 0;
+            color: #999;
+            text-align: center;
+            font-size: 12px;
+        }
+        .link {
+            overflow: hidden;
+            text-align: center;
+            a {
+                display: inline-block;
+                overflow: hidden;
+                margin: 0 3px;
+            }
+        }
+    }
+}

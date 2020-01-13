@@ -1,4 +1,69 @@
-/* line 1, ../sass/reg.scss */
+/* line 17, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/reg.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,13 +71,13 @@
   list-style-type: none;
 }
 
-/* line 8, ../sass/reg.scss */
+/* line 10, ../sass/reg.scss */
 body {
   background: url(../imges/bg.jpg) center top no-repeat;
   min-width: 1002px;
 }
 
-/* line 13, ../sass/reg.scss */
+/* line 16, ../sass/reg.scss */
 header {
   width: 818px;
   margin: 0 auto 40px;
@@ -22,17 +87,17 @@ header {
   line-height: 35px;
   color: #fff;
 }
-/* line 21, ../sass/reg.scss */
+/* line 24, ../sass/reg.scss */
 header h1 {
   float: left;
 }
-/* line 23, ../sass/reg.scss */
+/* line 26, ../sass/reg.scss */
 header h1 img {
   vertical-align: middle;
   height: 35px;
 }
 
-/* line 30, ../sass/reg.scss */
+/* line 34, ../sass/reg.scss */
 main {
   position: relative;
   z-index: 10;
@@ -43,7 +108,7 @@ main {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   margin: 0 auto 56px;
 }
-/* line 39, ../sass/reg.scss */
+/* line 43, ../sass/reg.scss */
 main .main-wrap {
   width: 396px;
   background: #fff;
@@ -52,7 +117,7 @@ main .main-wrap {
   text-align: center;
   font-size: 16px;
 }
-/* line 46, ../sass/reg.scss */
+/* line 50, ../sass/reg.scss */
 main .main-wrap .title {
   color: #333333;
   line-height: 36px;
@@ -62,41 +127,41 @@ main .main-wrap .title {
   margin: 0 0 10px;
   text-align: center;
 }
-/* line 55, ../sass/reg.scss */
+/* line 59, ../sass/reg.scss */
 main .main-wrap .vicetit {
   color: #999999;
   line-height: 18px;
   margin: 0 0 34px;
 }
-/* line 60, ../sass/reg.scss */
+/* line 64, ../sass/reg.scss */
 main .main-wrap p {
   line-height: 30px;
   vertical-align: middle;
 }
-/* line 63, ../sass/reg.scss */
+/* line 67, ../sass/reg.scss */
 main .main-wrap p label {
   display: inline-block;
   width: 80px;
   text-align: right;
 }
-/* line 68, ../sass/reg.scss */
+/* line 72, ../sass/reg.scss */
 main .main-wrap p .tel {
   width: 150px;
   height: 16px;
 }
-/* line 72, ../sass/reg.scss */
+/* line 76, ../sass/reg.scss */
 main .main-wrap p .password {
   width: 150px;
   height: 16px;
   vertical-align: middle;
 }
-/* line 77, ../sass/reg.scss */
+/* line 81, ../sass/reg.scss */
 main .main-wrap p .twice {
   width: 150px;
   height: 16px;
   vertical-align: middle;
 }
-/* line 83, ../sass/reg.scss */
+/* line 87, ../sass/reg.scss */
 main .main-wrap .submit {
   width: 120px;
   height: 40px;
@@ -106,4 +171,53 @@ main .main-wrap .submit {
   border: 0;
   margin-left: 80px;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+/* line 102, ../sass/reg.scss */
+footer {
+  width: 100%;
+  padding: 25px 0 30px 0;
+  margin-top: 400px;
+}
+/* line 106, ../sass/reg.scss */
+footer .footwrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+/* line 109, ../sass/reg.scss */
+footer .footwrap .foot-ul {
+  width: 825px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 113, ../sass/reg.scss */
+footer .footwrap .foot-ul li {
+  float: left;
+  width: 70px;
+  height: 12px;
+  line-height: 12px;
+  border-right: 1px solid #DDD;
+  text-align: center;
+  margin-right: -1px;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 125, ../sass/reg.scss */
+footer .footwrap .p-text {
+  padding: 24px 0 15px 0;
+  color: #999;
+  text-align: center;
+  font-size: 12px;
+}
+/* line 131, ../sass/reg.scss */
+footer .footwrap .link {
+  overflow: hidden;
+  text-align: center;
+}
+/* line 134, ../sass/reg.scss */
+footer .footwrap .link a {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 3px;
 }

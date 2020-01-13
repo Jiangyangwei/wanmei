@@ -1,0 +1,443 @@
+/* line 17, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/details.scss */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+/* line 13, ../sass/details.scss */
+body {
+  background-color: #f5f5f5;
+}
+
+/* line 17, ../sass/details.scss */
+a {
+  color: black;
+}
+
+/* line 22, ../sass/details.scss */
+header {
+  width: 100%;
+  height: 33px;
+  background-color: #474747;
+}
+/* line 26, ../sass/details.scss */
+header .headerwrap {
+  width: 1190px;
+  height: 100%;
+  margin: 0 auto;
+}
+/* line 30, ../sass/details.scss */
+header .headerwrap .left-span {
+  margin-top: 7px;
+  float: left;
+  font-size: 12px;
+  color: white;
+}
+/* line 36, ../sass/details.scss */
+header .headerwrap .right-box {
+  float: right;
+  width: 138px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+/* line 42, ../sass/details.scss */
+header .headerwrap .right-box .cart {
+  height: 33px;
+  line-height: 33px;
+  background-color: #1e1e1e;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+}
+/* line 50, ../sass/details.scss */
+header .headerwrap .right-box .cart .icon {
+  display: inline-block;
+  margin-right: 8px;
+  width: 20px;
+  height: 14px;
+  overflow: hidden;
+  background: url(../imges/base.png) no-repeat -164px -20px;
+  vertical-align: -2px;
+}
+/* line 59, ../sass/details.scss */
+header .headerwrap .right-box .cart span {
+  color: gray;
+}
+
+/* line 68, ../sass/details.scss */
+nav {
+  height: 101px;
+  background-color: #FFF;
+  border-bottom: 3px solid #de2f3c;
+  box-shadow: 0 3px 3px #CCC;
+}
+/* line 73, ../sass/details.scss */
+nav .navwrap {
+  width: 1190px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 77, ../sass/details.scss */
+nav .navwrap .logo {
+  width: 183px;
+  text-align: center;
+  height: 101px;
+  padding-top: 29px;
+  background-color: #c20315;
+  margin-bottom: -3px;
+  display: block;
+  float: left;
+}
+/* line 87, ../sass/details.scss */
+nav .navwrap .shop {
+  margin: 37px 0 0 34px;
+  display: block;
+  float: left;
+}
+/* line 92, ../sass/details.scss */
+nav .navwrap .shopping {
+  position: relative;
+  width: 175px;
+  margin-left: 50px;
+  text-indent: 19px;
+  z-index: 1;
+  float: left;
+}
+/* line 99, ../sass/details.scss */
+nav .navwrap .shopping .text {
+  height: 101px;
+  line-height: 101px;
+  font-size: 15px;
+  cursor: pointer;
+  display: block;
+}
+/* line 105, ../sass/details.scss */
+nav .navwrap .shopping .text .shop-list {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin-right: 7px;
+  background: url(../imges/base.png) no-repeat -24px 0;
+  vertical-align: -1px;
+}
+/* line 115, ../sass/details.scss */
+nav .navwrap .ul-list {
+  margin-top: 40px;
+  float: left;
+}
+/* line 118, ../sass/details.scss */
+nav .navwrap .ul-list li {
+  float: left;
+  padding: 0 13px;
+  font-size: 15px;
+}
+/* line 122, ../sass/details.scss */
+nav .navwrap .ul-list li a {
+  color: black;
+}
+/* line 127, ../sass/details.scss */
+nav .navwrap .right-box {
+  position: relative;
+  width: 320px;
+  height: 41px;
+  margin-top: 30px;
+  z-index: 1;
+  float: right;
+}
+/* line 134, ../sass/details.scss */
+nav .navwrap .right-box form {
+  overflow: hidden;
+}
+/* line 136, ../sass/details.scss */
+nav .navwrap .right-box form .input-text {
+  float: left;
+  width: 274px;
+  height: 41px;
+  line-height: 39px;
+  padding: 0 5px;
+  border: 1px solid #CCC;
+  border-right: 0;
+  resize: none;
+  outline: 0;
+}
+/* line 147, ../sass/details.scss */
+nav .navwrap .right-box form .btn {
+  float: right;
+  width: 46px;
+  height: 41px;
+  border: 0;
+  background: #e32332 url(../imges/search.png) no-repeat center;
+  cursor: pointer;
+}
+/* line 155, ../sass/details.scss */
+nav .navwrap .right-box form .keyword {
+  position: absolute;
+  top: 1px;
+  right: 56px;
+  height: 30px;
+  padding-top: 9px;
+}
+/* line 161, ../sass/details.scss */
+nav .navwrap .right-box form .keyword a {
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: #EEE;
+  font-size: 12px;
+}
+
+/* line 173, ../sass/details.scss */
+.nav-bar {
+  height: 44px;
+  line-height: 44px;
+  background-color: #f5f5f5;
+  color: #666;
+}
+/* line 178, ../sass/details.scss */
+.nav-bar .barwrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+/* line 181, ../sass/details.scss */
+.nav-bar .barwrap a {
+  padding-right: 3px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* line 190, ../sass/details.scss */
+.good-list {
+  padding: 30px 0 40px 0;
+  background-color: #FFF;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 195, ../sass/details.scss */
+.good-list .detail-wrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+/* line 198, ../sass/details.scss */
+.good-list .detail-wrap .left-detail {
+  float: left;
+  overflow: hidden;
+}
+/* line 201, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .hd {
+  width: 430px;
+  height: 430px;
+}
+/* line 205, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .bd {
+  width: 430px;
+  padding-top: 10px;
+}
+/* line 208, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .bd ul {
+  text-align: center;
+  overflow: hidden;
+}
+/* line 211, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .bd ul li {
+  float: left;
+  margin: 0 auto;
+}
+/* line 218, ../sass/details.scss */
+.good-list .detail-wrap .right-detail {
+  width: 684px;
+  font-size: 14px;
+  float: left;
+}
+/* line 222, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .title {
+  overflow: hidden;
+}
+/* line 224, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .title h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: #474747;
+  font-weight: normal;
+}
+/* line 230, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .title p {
+  font-size: 16px;
+  color: #666;
+}
+/* line 235, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .pri {
+  padding: 20px 0;
+  margin: 34px 0 25px 0;
+  font-size: 26px;
+  color: #e90404;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+/* line 242, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .pri s {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #999;
+}
+/* line 248, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .tc {
+  overflow: hidden;
+}
+/* line 251, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .tc:nth-of-type(1) {
+  font-size: 14px;
+}
+/* line 253, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .tc:nth-of-type(1) .tg {
+  float: right;
+}
+/* line 257, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .ee {
+  font-size: 14px;
+  margin: 20px 0;
+  line-height: 30px;
+}
+/* line 261, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .ee .dt {
+  margin-left: 30px;
+  text-align: center;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  border: 2px solid red;
+}
+/* line 270, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .tt {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/* line 273, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .tt a {
+  margin-left: 30px;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  border: 2px solid red;
+  text-align: center;
+  line-height: 30px;
+}
+/* line 283, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .aa {
+  font-size: 14px;
+}
+/* line 285, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .aa span {
+  margin-right: 30px;
+}
+/* line 288, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .aa .sl {
+  width: 60px;
+  height: 25px;
+}
+/* line 293, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .qq {
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 297, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .qq .shop {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  background: red;
+  color: #fff;
+}
+/* line 308, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .qq .lj {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: 300px;
+}
+/* line 316, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .qq .lj input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  color: red;
+  background: #fff;
+  cursor: pointer;
+}
