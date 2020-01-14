@@ -195,12 +195,31 @@ nav {
     .detail-wrap {
         width: $page-width;
         margin: 0 auto;
+        overflow: hidden;
+        position: relative;
         .left-detail {
             float: left;
             overflow: hidden;
             .hd {
                 width: 430px;
                 height: 430px;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .sf {
+                    background: orange;
+                    opacity: 0.3;
+                    position: absolute;
+                    cursor: move;
+                    width: 200px;
+                    height: 250px;
+                    visibility: hidden;
+                    left: 0px;
+                    top: 50px;
+                    z-index: 10;
+                }
             }
             .bd {
                 width: 430px;
@@ -210,9 +229,39 @@ nav {
                     overflow: hidden;
                     li {
                         float: left;
-                        margin: 0 auto;
+                        margin: 0px 3px;
+                        width: 100px;
+                        height: 100px;
+                        cursor: pointer;
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            display: inline-block;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
                     }
                 }
+            }
+        }
+        .bf {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            float: left;
+            position: absolute;
+            left: 430px;
+            visibility: hidden;
+            z-index: 9999;
+            overflow: hidden;
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 800px;
+                height: 800px;
             }
         }
         .right-detail {
@@ -239,10 +288,15 @@ nav {
                 color: #e90404;
                 border-top: 1px solid #efefef;
                 border-bottom: 1px solid #efefef;
+                span {
+                    font-size: 26px;
+                    color: #e90404;
+                }
                 s {
                     padding-left: 20px;
                     font-size: 16px;
                     color: #999;
+                    text-decoration: line-through;
                 }
             }
             .tc {

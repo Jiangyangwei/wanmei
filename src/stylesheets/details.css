@@ -285,55 +285,110 @@ nav .navwrap .right-box form .keyword a {
 .good-list .detail-wrap {
   width: 1190px;
   margin: 0 auto;
+  overflow: hidden;
+  position: relative;
 }
-/* line 198, ../sass/details.scss */
+/* line 200, ../sass/details.scss */
 .good-list .detail-wrap .left-detail {
   float: left;
   overflow: hidden;
 }
-/* line 201, ../sass/details.scss */
+/* line 203, ../sass/details.scss */
 .good-list .detail-wrap .left-detail .hd {
   width: 430px;
   height: 430px;
+  position: relative;
 }
-/* line 205, ../sass/details.scss */
+/* line 207, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .hd img {
+  width: 100%;
+  height: 100%;
+}
+/* line 211, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .hd .sf {
+  background: orange;
+  opacity: 0.3;
+  position: absolute;
+  cursor: move;
+  width: 200px;
+  height: 250px;
+  visibility: hidden;
+  left: 0px;
+  top: 50px;
+  z-index: 10;
+}
+/* line 224, ../sass/details.scss */
 .good-list .detail-wrap .left-detail .bd {
   width: 430px;
   padding-top: 10px;
 }
-/* line 208, ../sass/details.scss */
+/* line 227, ../sass/details.scss */
 .good-list .detail-wrap .left-detail .bd ul {
   text-align: center;
   overflow: hidden;
 }
-/* line 211, ../sass/details.scss */
+/* line 230, ../sass/details.scss */
 .good-list .detail-wrap .left-detail .bd ul li {
   float: left;
-  margin: 0 auto;
+  margin: 0px 3px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
 }
-/* line 218, ../sass/details.scss */
+/* line 236, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .bd ul li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+/* line 240, ../sass/details.scss */
+.good-list .detail-wrap .left-detail .bd ul li a img {
+  width: 100%;
+  height: 100%;
+}
+/* line 249, ../sass/details.scss */
+.good-list .detail-wrap .bf {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  float: left;
+  position: absolute;
+  left: 430px;
+  visibility: hidden;
+  z-index: 9999;
+  overflow: hidden;
+}
+/* line 259, ../sass/details.scss */
+.good-list .detail-wrap .bf img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 800px;
+  height: 800px;
+}
+/* line 267, ../sass/details.scss */
 .good-list .detail-wrap .right-detail {
   width: 684px;
   font-size: 14px;
   float: left;
 }
-/* line 222, ../sass/details.scss */
+/* line 271, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .title {
   overflow: hidden;
 }
-/* line 224, ../sass/details.scss */
+/* line 273, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .title h1 {
   padding-bottom: 20px;
   font-size: 30px;
   color: #474747;
   font-weight: normal;
 }
-/* line 230, ../sass/details.scss */
+/* line 279, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .title p {
   font-size: 16px;
   color: #666;
 }
-/* line 235, ../sass/details.scss */
+/* line 284, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .pri {
   padding: 20px 0;
   margin: 34px 0 25px 0;
@@ -342,31 +397,37 @@ nav .navwrap .right-box form .keyword a {
   border-top: 1px solid #efefef;
   border-bottom: 1px solid #efefef;
 }
-/* line 242, ../sass/details.scss */
+/* line 291, ../sass/details.scss */
+.good-list .detail-wrap .right-detail .pri span {
+  font-size: 26px;
+  color: #e90404;
+}
+/* line 295, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .pri s {
   padding-left: 20px;
   font-size: 16px;
   color: #999;
+  text-decoration: line-through;
 }
-/* line 248, ../sass/details.scss */
+/* line 302, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .tc {
   overflow: hidden;
 }
-/* line 251, ../sass/details.scss */
+/* line 305, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .tc:nth-of-type(1) {
   font-size: 14px;
 }
-/* line 253, ../sass/details.scss */
+/* line 307, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .tc:nth-of-type(1) .tg {
   float: right;
 }
-/* line 257, ../sass/details.scss */
+/* line 311, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .ee {
   font-size: 14px;
   margin: 20px 0;
   line-height: 30px;
 }
-/* line 261, ../sass/details.scss */
+/* line 315, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .ee .dt {
   margin-left: 30px;
   text-align: center;
@@ -375,12 +436,12 @@ nav .navwrap .right-box form .keyword a {
   height: 30px;
   border: 2px solid red;
 }
-/* line 270, ../sass/details.scss */
+/* line 324, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .tt {
   font-size: 14px;
   margin-bottom: 20px;
 }
-/* line 273, ../sass/details.scss */
+/* line 327, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .tt a {
   margin-left: 30px;
   display: inline-block;
@@ -390,26 +451,26 @@ nav .navwrap .right-box form .keyword a {
   text-align: center;
   line-height: 30px;
 }
-/* line 283, ../sass/details.scss */
+/* line 337, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .aa {
   font-size: 14px;
 }
-/* line 285, ../sass/details.scss */
+/* line 339, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .aa span {
   margin-right: 30px;
 }
-/* line 288, ../sass/details.scss */
+/* line 342, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .aa .sl {
   width: 60px;
   height: 25px;
 }
-/* line 293, ../sass/details.scss */
+/* line 347, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .qq {
   margin-top: 30px;
   overflow: hidden;
   position: relative;
 }
-/* line 297, ../sass/details.scss */
+/* line 351, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .qq .shop {
   width: 200px;
   height: 50px;
@@ -420,7 +481,7 @@ nav .navwrap .right-box form .keyword a {
   background: red;
   color: #fff;
 }
-/* line 308, ../sass/details.scss */
+/* line 362, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .qq .lj {
   width: 200px;
   height: 50px;
@@ -430,7 +491,7 @@ nav .navwrap .right-box form .keyword a {
   top: 0;
   left: 300px;
 }
-/* line 316, ../sass/details.scss */
+/* line 370, ../sass/details.scss */
 .good-list .detail-wrap .right-detail .qq .lj input {
   width: 100%;
   height: 100%;
