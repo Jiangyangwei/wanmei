@@ -1,12 +1,13 @@
 define(['jquery'], function($) {
     return {
-        xuanran: function(callback) {
+        xuanran: function() {
             this.hd_img = $('.hd img');
             this.bd_ul = $('.bd ul');
             this.h1 = $('.title h1');
             this.pri = $('.pri span');
             this.oldpri = $('.pri s');
-            this.bpic = $('.bpic')
+            this.bpic = $('.bpic');
+            this.count = $('.sl');
 
 
             let id = location.search.substring(1).split('=')[1];
@@ -34,13 +35,15 @@ define(['jquery'], function($) {
                 this.bd_ul.html($strhtml);
 
 
-            })
+            });
+
 
         },
         tab: function() {
 
 
             $('.bd ul ').on('click', 'li a img', function() {
+
                 $('.hd img').get(0).src = $(this).get(0).src;
                 $('.bpic').get(0).src = $('.hd img').get(0).src;
             })
@@ -102,6 +105,37 @@ define(['jquery'], function($) {
 
 
         },
+        //获取cookie
+        cookie: function() {
+            console.log(1);
+            let id = location.search.substring(1).split('=')[1];
+            this.count = $('.sl');
+            let goodsnum = []; //商品的数量
+            let goodsid = []; //商品的编号
+            //cartnum  cartsid:本地存储的key值
+            function getcookie() {
+                if (localStorage.getItem('cartnum') && localStorage.getItem('cartsid')) {
+                    goodsnum = localStorage.getItem('cartnum').split(',');
+                    goodsid = localStorage.getItem('cartsid').split(',');
+                }
+            }
+            $('.qq .lj').on('click', () => {
+                getcookie();
+                if ($.inArray(id, goodsid) === -1) { //第一次点击,将sid传入，取到数量直接传入
+                    goodsid.push(id);
+                    localStorage.setItem('cartsid', goodsid); //存入sid
+                    goodsnum.push(this.count.val());
+                    localStorage.setItem('cartnum', goodsnum); //存入数量
+                } else {
+                    let index = $.inArray(id, goodsid); //当前sid在数组中对应的位置
+                    let newnum = parseInt(goodsnum[index]) + parseInt(this.count.val()); //原来存储的值+当前的值
+                    goodsnum[index] = newnum; //新的数量
+                    localStorage.setItem('cartnum', goodsnum); //存入数量
+                }
+            });
+
+
+        }
 
 
 

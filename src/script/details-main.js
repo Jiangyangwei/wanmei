@@ -12,4 +12,5 @@ require(['jquery', 'details'], function($, details) {
     details.xuanran();
     details.tab();
     details.fdj();
+    details.cookie();
 })

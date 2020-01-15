@@ -10,6 +10,9 @@
     <title>注册账号 - 完美世界通行证</title>
     <!-- <link rel="stylesheet" href="./stylesheets/wanmei.css"> -->
     <link rel="stylesheet" href="./stylesheets/reg.css">
+    <script src="./script/require.js" data-main="./script/reg-mian.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+
 
 </head>
 
@@ -24,10 +27,12 @@
         <div class="main-wrap">
             <h2 class="title">注册完美通行证</h2>
             <p class="vicetit">创建完美账号，抢先享受全方位的游戏服务</p>
-            <p><label for="">手机号:</label><input type="text" name="手机号" class="tel"></p>
-            <p><label for="">密码:</label><input type="password" name="密码" class="password"></p>
-            <p><label for="">确认密码:</label><input type="password" name="确认密码" class="twice"></p>
-            <input type="submit" name="" value="注册" class="submit"></div>
+            <form action="http://localhost/html1912/wanmei/php/reg.php" method="post">
+                <p><label for="">用户名:</label><input type="text" name="username" class="username"><span></span></p>
+                <p><label for="">密码:</label><input type="password" name="password" class="password"></p>
+                <p><label for="">邮箱:</label><input type="email" name="email" class="getname"></p>
+                <input type="submit" name="submit" value="注册" class="submit"></div>
+        </form>
     </main>
     <footer>
         <div class="footwrap">

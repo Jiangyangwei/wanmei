@@ -72,12 +72,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 10, ../sass/reg.scss */
+.red {
+  color: red;
+}
+
+/* line 14, ../sass/reg.scss */
+.green {
+  color: green;
+}
+
+/* line 18, ../sass/reg.scss */
 body {
   background: url(../imges/bg.jpg) center top no-repeat;
   min-width: 1002px;
 }
 
-/* line 16, ../sass/reg.scss */
+/* line 24, ../sass/reg.scss */
 header {
   width: 818px;
   margin: 0 auto 40px;
@@ -87,17 +97,17 @@ header {
   line-height: 35px;
   color: #fff;
 }
-/* line 24, ../sass/reg.scss */
+/* line 32, ../sass/reg.scss */
 header h1 {
   float: left;
 }
-/* line 26, ../sass/reg.scss */
+/* line 34, ../sass/reg.scss */
 header h1 img {
   vertical-align: middle;
   height: 35px;
 }
 
-/* line 34, ../sass/reg.scss */
+/* line 42, ../sass/reg.scss */
 main {
   position: relative;
   z-index: 10;
@@ -108,7 +118,7 @@ main {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   margin: 0 auto 56px;
 }
-/* line 43, ../sass/reg.scss */
+/* line 51, ../sass/reg.scss */
 main .main-wrap {
   width: 396px;
   background: #fff;
@@ -117,7 +127,7 @@ main .main-wrap {
   text-align: center;
   font-size: 16px;
 }
-/* line 50, ../sass/reg.scss */
+/* line 58, ../sass/reg.scss */
 main .main-wrap .title {
   color: #333333;
   line-height: 36px;
@@ -127,42 +137,46 @@ main .main-wrap .title {
   margin: 0 0 10px;
   text-align: center;
 }
-/* line 59, ../sass/reg.scss */
+/* line 67, ../sass/reg.scss */
 main .main-wrap .vicetit {
   color: #999999;
   line-height: 18px;
   margin: 0 0 34px;
 }
-/* line 64, ../sass/reg.scss */
-main .main-wrap p {
+/* line 72, ../sass/reg.scss */
+main .main-wrap form {
+  overflow: hidden;
+}
+/* line 74, ../sass/reg.scss */
+main .main-wrap form p {
   line-height: 30px;
   vertical-align: middle;
 }
-/* line 67, ../sass/reg.scss */
-main .main-wrap p label {
+/* line 77, ../sass/reg.scss */
+main .main-wrap form p label {
   display: inline-block;
   width: 80px;
   text-align: right;
 }
-/* line 72, ../sass/reg.scss */
-main .main-wrap p .tel {
-  width: 150px;
+/* line 82, ../sass/reg.scss */
+main .main-wrap form p .username {
+  width: 160px;
   height: 16px;
 }
-/* line 76, ../sass/reg.scss */
-main .main-wrap p .password {
-  width: 150px;
-  height: 16px;
-  vertical-align: middle;
-}
-/* line 81, ../sass/reg.scss */
-main .main-wrap p .twice {
-  width: 150px;
+/* line 86, ../sass/reg.scss */
+main .main-wrap form p .password {
+  width: 165px;
   height: 16px;
   vertical-align: middle;
 }
-/* line 87, ../sass/reg.scss */
-main .main-wrap .submit {
+/* line 91, ../sass/reg.scss */
+main .main-wrap form p .email {
+  width: 160px;
+  height: 16px;
+  vertical-align: middle;
+}
+/* line 97, ../sass/reg.scss */
+main .main-wrap form .submit {
   width: 120px;
   height: 40px;
   background: red;
@@ -174,24 +188,24 @@ main .main-wrap .submit {
   cursor: pointer;
 }
 
-/* line 102, ../sass/reg.scss */
+/* line 113, ../sass/reg.scss */
 footer {
   width: 100%;
   padding: 25px 0 30px 0;
   margin-top: 400px;
 }
-/* line 106, ../sass/reg.scss */
+/* line 117, ../sass/reg.scss */
 footer .footwrap {
   width: 1190px;
   margin: 0 auto;
 }
-/* line 109, ../sass/reg.scss */
+/* line 120, ../sass/reg.scss */
 footer .footwrap .foot-ul {
   width: 825px;
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 113, ../sass/reg.scss */
+/* line 124, ../sass/reg.scss */
 footer .footwrap .foot-ul li {
   float: left;
   width: 70px;
@@ -203,19 +217,19 @@ footer .footwrap .foot-ul li {
   text-align: center;
   font-size: 12px;
 }
-/* line 125, ../sass/reg.scss */
+/* line 136, ../sass/reg.scss */
 footer .footwrap .p-text {
   padding: 24px 0 15px 0;
   color: #999;
   text-align: center;
   font-size: 12px;
 }
-/* line 131, ../sass/reg.scss */
+/* line 142, ../sass/reg.scss */
 footer .footwrap .link {
   overflow: hidden;
   text-align: center;
 }
-/* line 134, ../sass/reg.scss */
+/* line 145, ../sass/reg.scss */
 footer .footwrap .link a {
   display: inline-block;
   overflow: hidden;
